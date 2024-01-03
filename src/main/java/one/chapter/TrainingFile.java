@@ -1,10 +1,8 @@
 package one.chapter;
 
-import org.apache.commons.math3.fitting.leastsquares.LeastSquaresProblem;
 import weka.classifiers.Evaluation;
 import weka.classifiers.functions.MultilayerPerceptron;
 import weka.core.Instances;
-
 import java.io.FileReader;
 public class TrainingFile {
 
