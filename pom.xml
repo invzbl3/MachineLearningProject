@@ -35,11 +35,11 @@
             <version>2.13.0</version> <!-- Replace with the latest version available -->
         </dependency>
 
-        <dependency>
+<!--        <dependency>
             <groupId>edu.stanford.nlp</groupId>
             <artifactId>stanford-corenlp</artifactId>
-            <version>4.5.1</version> <!-- Replace with the latest version available -->
-        </dependency>
+            <version>4.5.1</version> &lt;!&ndash; Replace with the latest version available &ndash;&gt;
+        </dependency>-->
 
         <!--<dependency>
           <groupId>edu.stanford.nlp</groupId>
