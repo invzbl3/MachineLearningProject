@@ -5,6 +5,10 @@ import com.fasterxml.jackson.core.JsonToken;
 import java.io.File;
 import java.io.IOException;
 
+
+/**
+ * Chapter 1. Getting Started with Data Science
+ */
 public class JsonParser {
     public static void main(String[] args) {
         JsonFactory jsonFactory = new JsonFactory();
