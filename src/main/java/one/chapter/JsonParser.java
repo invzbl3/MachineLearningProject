@@ -4,8 +4,6 @@ import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonToken;
 import java.io.File;
 import java.io.IOException;
-
-
 /**
  * Chapter 1. Getting Started with Data Science
  */
@@ -74,7 +72,7 @@ public class JsonParser {
     }*/
 
     // Page 61: the code-snippet doesn't work properly because of the issue as: "Illegal self reference
-    
+
     /*String text = text.toLowerCase().trim();
     TokenizerFactory fact = IndoEuropeanTokenizerFactory.INSTANCE;
     fact = new EnglishStopTokenizerFactory(fact);
