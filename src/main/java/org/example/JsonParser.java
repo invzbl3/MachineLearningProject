@@ -58,7 +58,7 @@ public class JsonParser {
      *          }
      */
 
-    // This snippet doesn't work properly, for some reason
+    // This snippet doesn't work properly because of the issue as: "Illegal self reference
 
     /*String dirtyText = dirtyText
             .toLowerCase()
