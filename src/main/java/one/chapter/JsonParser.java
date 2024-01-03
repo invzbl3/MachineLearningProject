@@ -58,7 +58,7 @@ public class JsonParser {
      *          }
      */
 
-    // On page 60: the code-snippet doesn't work properly because of the issue as: "Illegal self reference
+    // Page 60: the code-snippet doesn't work properly because of the issue as: "Illegal self reference
 
     /*String dirtyText = dirtyText
             .toLowerCase()
@@ -68,4 +68,15 @@ public class JsonParser {
     while (dirtyText.contains("   ")) {
         dirtyText = dirtyText.replaceAll(" ", "");
     }*/
+
+    // Page 61:
+    String text = text.toLowerCase().trim();
+    TokenizerFactory fact = IndoEuropeanTokenizerFactory.INSTANCE;
+    fact = new EnglishStopTokenizerFactory(fact);
+    Tokenizer tok  = fact.tokenizer(
+            text.toCharArray(), 0,
+    text.length());
+    for(String word : tok) {
+        out.print(word + " ");
+    }
 }
