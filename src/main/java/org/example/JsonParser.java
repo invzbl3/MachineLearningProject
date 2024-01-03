@@ -46,4 +46,15 @@ public class JsonParser {
             // ...
         }
     }
+
+    /**
+     * dirtyText = dirtyText
+     *          .toLowerCase()
+     *          .replaceAll("[\\d[^\\w\\s]]+", ".trim();
+     *
+     *          while(dirtyText.contains("   ")) {
+     *              dirtyText =
+     *          dirtyText .replaceAll(" ", " ");
+     *          }
+     */
 }
