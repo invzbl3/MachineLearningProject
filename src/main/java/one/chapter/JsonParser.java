@@ -2,6 +2,8 @@ package one.chapter;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonToken;
+import edu.stanford.nlp.process.Tokenizer;
+import edu.stanford.nlp.process.TokenizerFactory;
 import java.io.File;
 import java.io.IOException;
 
@@ -69,14 +71,14 @@ public class JsonParser {
         dirtyText = dirtyText.replaceAll(" ", "");
     }*/
 
-    // Page 61:
-    String text = text.toLowerCase().trim();
+    // Page 61: the code-snippet doesn't work properly because of the issue as: "Illegal self reference
+    /*String text = text.toLowerCase().trim();
     TokenizerFactory fact = IndoEuropeanTokenizerFactory.INSTANCE;
     fact = new EnglishStopTokenizerFactory(fact);
     Tokenizer tok  = fact.tokenizer(
             text.toCharArray(), 0,
     text.length());
     for(String word : tok) {
-        out.print(word + " ");
-    }
+        System.out.print(word + " ");
+    }*/
 }
