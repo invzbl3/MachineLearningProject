@@ -1,4 +1,4 @@
-package org.example;
+package one.chapter;
 
 /**
  * Hello world!

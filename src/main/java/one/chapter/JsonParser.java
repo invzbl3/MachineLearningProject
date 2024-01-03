@@ -1,4 +1,4 @@
-package org.example;
+package one.chapter;
 
 import com.fasterxml.jackson.core.JsonFactory;
 import com.fasterxml.jackson.core.JsonToken;
