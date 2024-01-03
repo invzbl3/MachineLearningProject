@@ -74,6 +74,7 @@ public class JsonParser {
     }*/
 
     // Page 61: the code-snippet doesn't work properly because of the issue as: "Illegal self reference
+    
     /*String text = text.toLowerCase().trim();
     TokenizerFactory fact = IndoEuropeanTokenizerFactory.INSTANCE;
     fact = new EnglishStopTokenizerFactory(fact);
