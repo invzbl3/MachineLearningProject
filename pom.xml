@@ -55,17 +55,66 @@
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+        <!-- Apache Commons Math dependency -->
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-math3</artifactId>
             <version>3.6.1</version>
         </dependency>
+
+        <!-- Weka Core -->
+        <!--<dependency>
+            <groupId>nz.ac.waikato.cms.weka</groupId>
+            <artifactId>weka-dev</artifactId>
+            <version>RELEASE</version>
+        </dependency>-->
+        <!-- Weka dependencies -->
+        <dependency>
+            <groupId>nz.ac.waikato.cms.weka</groupId>
+            <artifactId>weka-stable</artifactId>
+            <version>3.8.5</version>
+        </dependency>
     </dependencies>
 
-    <repositories>
+    <!--<repositories>
       <repository>
         <id>central</id>
         <url>https://repo.maven.apache.org/maven2</url>
       </repository>
+    </repositories>-->
+
+    <!--<repositories>
+        <repository>
+            <id>stanford-nlp</id>
+            <url>https://nlp.stanford.edu/software/repository</url>
+        </repository>
+    </repositories>-->
+
+    <!--<repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
+    </repositories>-->
+
+    <!--<repositories>
+        <repository>
+            <id>stanford-nlp</id>
+            <url>https://nlp.stanford.edu/software/repository</url>
+        </repository>
+    </repositories>-->
+
+    <!--<repositories>
+        <repository>
+            <id>stanford-nlp</id>
+            <url>https://nlp.stanford.edu/software/repository</url>
+        </repository>
+    </repositories>-->
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <url>https://repo.maven.apache.org/maven2</url>
+        </repository>
     </repositories>
 </project>
