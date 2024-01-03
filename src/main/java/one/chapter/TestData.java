@@ -2,6 +2,7 @@ package one.chapter;
 
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 import org.apache.commons.math3.stat.descriptive.SynchronizedDescriptiveStatistics;
+
 public class TestData {
 
     public static void main(String[] args) {
@@ -17,5 +18,8 @@ public class TestData {
 
             statTest.addValue(num);
         }
+
+        System.out.println("The median is " +
+                statTest.getPercentile(50));
     }
 }
