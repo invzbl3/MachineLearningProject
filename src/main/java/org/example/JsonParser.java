@@ -7,7 +7,7 @@ import java.io.IOException;
 
 public class JsonParser {
     public static void main(String[] args) {
-        JsonFactory jsonFactory = new JsonFactory();
+        /*JsonFactory jsonFactory = new JsonFactory();
         com.fasterxml.jackson.core.JsonParser parser;
         try {
             parser = jsonFactory.createParser(new File("Person.json"));
@@ -44,7 +44,7 @@ public class JsonParser {
                 System.out.println("firstname : " + fname);
             }
             // ...
-        }
+        }*/
     }
 
     /**
@@ -57,4 +57,15 @@ public class JsonParser {
      *          dirtyText .replaceAll(" ", " ");
      *          }
      */
+
+    // This snippet doesn't work properly, for some reason
+
+    /*String dirtyText = dirtyText
+            .toLowerCase()
+            .replaceAll("[\\d[^\\w\\s]]+", "")
+            .trim();
+
+    while (dirtyText.contains("   ")) {
+        dirtyText = dirtyText.replaceAll(" ", "");
+    }*/
 }
