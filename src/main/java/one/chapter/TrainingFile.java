@@ -8,8 +8,8 @@ public class TrainingFile {
 
     public static void main(String[] args) {
 
-        String trainingFileName = "dermatologyTrainingSet.arff";
-        String testingFileName = "dermatologyTestingSet.arff";
+        String trainingFileName = "dermatologyTrainingSet.arff"; // file content missing
+        String testingFileName = "dermatologyTestingSet.arff"; // file content missing
 
         try (FileReader trainingReader = new
                 FileReader(trainingFileName); FileReader testingReader =

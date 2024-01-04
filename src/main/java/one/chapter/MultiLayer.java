@@ -1,9 +1,9 @@
 package one.chapter;
 
 public class MultiLayer {
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
 
-        /*MultiLayerConfiguration conf = new
+        MultiLayerConfiguration conf = new
                 NeuralNetConfiguration.Builder()
                     .seed(seed)
                     .iterations(numberOfIterations)
@@ -53,6 +53,6 @@ public class MultiLayer {
                         .nOut(numberOfRows *
                                 numberOfColumns).build())
                 .pretrain(true).backprop(true)
-                .build();*/
-    }
+                .build();
+    }*/
 }
