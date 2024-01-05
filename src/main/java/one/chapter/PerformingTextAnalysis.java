@@ -1,14 +1,14 @@
 package one.chapter;
 
 import java.io.*;
+import java.nio.file.Files;
 
 public class PerformingTextAnalysis {
 
     public static void main(String[] args) {
 
-        try (InputStream input = new
-                FileInputStream(
-                    new File("en-pos-maxent.bin"));) {
+        try (InputStream input = Files.newInputStream(
+                new File("en-pos-maxent.bin").toPath())) {
 
             String sentence = "Let's parse this sentence.";
             // ...
