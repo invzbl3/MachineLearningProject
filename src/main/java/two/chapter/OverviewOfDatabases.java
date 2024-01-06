@@ -37,5 +37,11 @@ public class OverviewOfDatabases {
      */
 
     /*PreparedStatement stmt =
-    connection.prepareStatement(insertSQL);*/
+    connection.prepareStatement(insertSQL);
+
+    stmt.setString(1, "https://
+    en.wikipedia.org/wiki/
+    */
+     */
+     */
 }
