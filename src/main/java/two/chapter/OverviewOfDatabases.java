@@ -1,6 +1,7 @@
 package two.chapter;
 
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public class OverviewOfDatabases {
@@ -28,4 +29,13 @@ public class OverviewOfDatabases {
     } catch (SQLException | ClassNotFoundException ex) {
         // Handle exceptions
     }*/
+
+    /**
+     * String insertSQL = "INSERT INTO
+     * `example`.`URLTABLE` "
+     *      + "('url') VALUES " + "(?);";
+     */
+
+    /*PreparedStatement stmt =
+    connection.prepareStatement(insertSQL);*/
 }
