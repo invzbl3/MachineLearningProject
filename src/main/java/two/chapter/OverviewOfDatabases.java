@@ -40,8 +40,10 @@ public class OverviewOfDatabases {
     connection.prepareStatement(insertSQL);
 
     stmt.setString(1, "https://
-    en.wikipedia.org/wiki/
-    */
-     */
-     */
+    en.wikipedia.org/wiki/Data_science");
+                            stmt.execute();
+                            stmt.setString(1,
+                                "https://en.wikipedia.org/wiki/
+                    Bishop_Rock, _Isles_of_Scilly");
+                            stmt.execute();    */
 }
