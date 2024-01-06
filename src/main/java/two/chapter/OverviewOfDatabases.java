@@ -45,5 +45,14 @@ public class OverviewOfDatabases {
                             stmt.setString(1,
                                 "https://en.wikipedia.org/wiki/
                     Bishop_Rock, _Isles_of_Scilly");
-                            stmt.execute();    */
+                            stmt.execute();
+
+
+    String selectSQL = "select * from
+                               URLTABLE";
+    Statement statement =
+    connection.createStatement();
+    ResultSet resultSet =
+    statement.executeQuery(selectSQL);
+    */
 }
