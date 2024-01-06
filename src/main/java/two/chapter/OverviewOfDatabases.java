@@ -60,5 +60,13 @@ public class OverviewOfDatabases {
 
     out.println(resultSet.getString(2));
         }
+
+
+    The output of this example, when executed, is as follows:
+    List of URLs
+    https://en.wikipedia.org/wiki/
+    Data_science
+    https://en.wikipedia.org/wiki
+    Bishop_Rock,_Isles_of_Scilly
     */
 }
