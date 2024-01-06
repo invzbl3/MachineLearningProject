@@ -68,5 +68,13 @@ public class OverviewOfDatabases {
     Data_science
     https://en.wikipedia.org/wiki
     Bishop_Rock,_Isles_of_Scilly
+
+    To empty the contents of the table, use
+    the following sequence:
+
+    Statement statement =
+    connection.createStatement();
+        statement.execute("TRUNCATE
+    URLTABLE;");
     */
 }
