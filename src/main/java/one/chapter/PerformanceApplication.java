@@ -40,7 +40,14 @@ public class PerformanceApplication {
          */
         for (int i = 0; i < cRealMatrix.getRowDimension(); i++) {
 
-            System.out.println(cRealMatrix.getRowMatrix(i));
+            System.out.println(cRealMatrix.getRowVector(i));
         }
+
+        /**
+         * The output is as follows:
+         */
+
+        /* {0.02761552; 0.19992684; 0.2131916}
+          {0.14428772; 0.41179806; 0.54165016} */
     }
 }
