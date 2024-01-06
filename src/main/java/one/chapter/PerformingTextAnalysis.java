@@ -26,6 +26,17 @@ public class PerformingTextAnalysis {
         for(int i=0; i<posTags.length; i++) {
             out.println(words[i] + " - " +
         posTags[i]);
+
+        =========================================
+        The output for this example is as follows:
+
+        Let's - NNP
+
+        parse - NN
+
+        this - DT
+
+        sentence. - NN
         */
     }
 }
