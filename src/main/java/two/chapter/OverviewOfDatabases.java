@@ -54,5 +54,11 @@ public class OverviewOfDatabases {
     connection.createStatement();
       ResultSet resultSet =
     statement.executeQuery(selectSQL);
+
+    out.println("List of URLs");
+        while (resultSet.next()) {
+
+    out.println(resultSet.getString(2));
+        }
     */
 }
