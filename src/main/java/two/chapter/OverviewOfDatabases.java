@@ -50,9 +50,9 @@ public class OverviewOfDatabases {
 
     String selectSQL = "select * from
                                URLTABLE";
-    Statement statement =
+      Statement statement =
     connection.createStatement();
-    ResultSet resultSet =
+      ResultSet resultSet =
     statement.executeQuery(selectSQL);
     */
 }
