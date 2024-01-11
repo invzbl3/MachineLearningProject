@@ -37,6 +37,13 @@ import java.util.ArrayList;
  * The ArrayList containing
  * pages that have already been
  * visited
+ *
+ * pageList
+ *
+ * Use
+ * An ArrayList containing
+ * the URLs of the pages of
+ * interest
  */
 public class SimpleWebCrawler {
 
