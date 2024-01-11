@@ -28,4 +28,30 @@ package two.chapter;
             visitedList.add(url);
                 ...
         }
+
+
+   try {
+        Document doc =
+   Jsoup.connect(url).get();
+                ...
+         } catch (Exception ex) {
+            // Handle exceptions
+         }
+
+    if (doc.text().contains(topic)) {
+        out.println((pageList.size()
+    + 1) + ": [" + url + "]");
+
+    pageList.add(url);
+
+    // Process page links
+    Elements questions =
+  doc.select("a[href]");
+    for (Element lin : questions)
+  {
+  if (link.attr("href").contains(urlLimiter) {
+    visitPage(link.attr("abs:href"));
+                }
+          }
+    }
 */
