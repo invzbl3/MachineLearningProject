@@ -1,5 +1,8 @@
 package one.chapter;
 
+/**
+ * Chapter 1. Getting Started with Data Science
+ */
 public class WordFounder {
 
     /*ITesseract instance = new

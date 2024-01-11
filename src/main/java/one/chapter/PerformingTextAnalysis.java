@@ -3,6 +3,9 @@ package one.chapter;
 import java.io.*;
 import java.nio.file.Files;
 
+/**
+ * Chapter 1. Getting Started with Data Science
+ */
 // Page 78: the code-snippet doesn't work properly because of the issue skipped parts
 public class PerformingTextAnalysis {
 

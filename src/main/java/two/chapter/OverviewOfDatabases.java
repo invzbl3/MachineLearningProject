@@ -4,6 +4,9 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
+/**
+ * Chapter 2. Data Acquisition
+ */
 public class OverviewOfDatabases {
 
     /**

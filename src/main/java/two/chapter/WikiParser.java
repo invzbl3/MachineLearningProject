@@ -5,6 +5,9 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import javax.net.ssl.HttpsURLConnection;
 
+/**
+ * Chapter 2. Data Acquisition
+ */
 public class WikiParser {
     /**
      * @param args
@@ -35,4 +38,18 @@ public class WikiParser {
             // Handle exceptions
         }
     }
+
+    /**
+     * The connection object is initialized with an
+     * HTTP GET command. The connect method is
+     * then executed to connect to the server:
+     * <p>
+     * connection.setRequestMethod("GET");
+     * <p>
+     * connection.connect();
+     * <p>
+     * out.println("Response Code: " + connection.getResponseCode());
+     * out.println("Content Type: " + connection.getContentType());
+     * out.println("Content Length: " + connection.getContentLength());
+     */
 }

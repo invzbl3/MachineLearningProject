@@ -4,6 +4,10 @@ import weka.classifiers.Evaluation;
 import weka.classifiers.functions.MultilayerPerceptron;
 import weka.core.Instances;
 import java.io.FileReader;
+
+/**
+ * Chapter 1. Getting Started with Data Science
+ */
 public class TrainingFile {
 
     public static void main(String[] args) {

@@ -3,6 +3,9 @@ package one.chapter;
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 import org.apache.commons.math3.stat.descriptive.SynchronizedDescriptiveStatistics;
 
+/**
+ * Chapter 1. Getting Started with Data Science
+ */
 public class TestData {
 
     public static void main(String[] args) {
