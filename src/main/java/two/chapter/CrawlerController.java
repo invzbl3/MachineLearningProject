@@ -27,6 +27,7 @@ package two.chapter;
  *
  * The basic class is shown here:
  */
+/*
 public class CrawlerController {
 
     public static void main(String[] args) throws Exception {
@@ -44,4 +45,4 @@ public class CrawlerController {
         config.setIncludeBinaryContentInCrawling(false);
         // ...
     }
-}
+}*/
