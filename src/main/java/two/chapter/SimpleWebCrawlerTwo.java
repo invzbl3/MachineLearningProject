@@ -16,5 +16,16 @@ package two.chapter;
             pageLimit) {
                 return;
         }
+        ...
     }
+
+    // If the page has already been visited, then we ignore
+    it. Otherwise, it is added to the visited list:
+
+    if (visitedList.contains(url)) {
+        // URL already visited
+        } else {
+            visitedList.add(url);
+                ...
+        }
 */
