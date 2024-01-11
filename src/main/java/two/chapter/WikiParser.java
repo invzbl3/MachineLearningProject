@@ -48,6 +48,14 @@ public class WikiParser {
      * <p>
      * connection.connect();
      * <p>
+     * Assuming no errors were encountered, we can
+     * determine whether the response was successful
+     * using the getResponseCode method. A normal
+     * return value is 200. The content of a web page can
+     * vary. For example, the getContentType method
+     * returns a string describing the page's content. The
+     * getContentLength method returns its length:
+     * <p>
      * out.println("Response Code: " + connection.getResponseCode());
      * out.println("Content Type: " + connection.getContentType());
      * out.println("Content Length: " + connection.getContentLength());
