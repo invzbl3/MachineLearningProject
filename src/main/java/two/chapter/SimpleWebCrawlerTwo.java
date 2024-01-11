@@ -47,7 +47,7 @@ package two.chapter;
     // Process page links
     Elements questions =
   doc.select("a[href]");
-    for (Element lin : questions)
+    for (Element link : questions)
   {
   if (link.attr("href").contains(urlLimiter) {
     visitPage(link.attr("abs:href"));
