@@ -54,4 +54,29 @@ package two.chapter;
                 }
           }
     }
+
+    The output follows:
+
+    1: [https://en.wikipedia.org/wiki/Bishop_Rock, _Isles_of_Scilly]
+    2: [https://en.wikipedia.org/wiki/Bishop_Rock_Lighthouse]
+    3. [https://en.wikipedia.org/w/index.php?
+    title=Bishop_Rock,_Isles_of_Scilly&oldid=717634231#Lighthouse]
+    4: [https://en.wikipedia.org/w/index.php?
+    title=Bishop_Rock,_Isles_of_Scilly&diff=prev&oldid=717634231]
+    5: [https://en.wikipedia.org/w/index.php?
+    title=Bishop_Rock,_Isles_of_Scilly&oldid=716622943]
+    6: [https://en.wikipedia.org/w/index.php?
+    title=Bishop_Rock,_Isles_of_Scilly&d
+    iff=prev&oldid=716622943]
+    7: [https://en.wikipedia.org/w/
+    index.php?
+    title=Bishop_Rock,_Isles_of_Scilly&o
+    ldid=716608512]
+    8: [https://en.wikipedia.org/w/index.php?
+    title=Bishop_Rock,_Isles_of_Scilly&d
+    iff=prev&oldid=716608512]
+    ...
+    20: [https://en.wikipedia.org/w/index.php?
+    title=Bishop_Rock,_Isles_of_Scilly&d
+    iff=prev&oldid=716603919]
 */
