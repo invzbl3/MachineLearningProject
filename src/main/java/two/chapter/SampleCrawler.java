@@ -68,4 +68,16 @@ public class SampleCrawler extends WebCrawler {
     ...
     Text length:
     14677
+
+    Notice that only one page was returned. This web crawler was able to identify and ignore previous versions of the main web page.
+
+    We could perform further processing, but this example provides some insight into how the API works.
+    Significant amounts of information can be obtained when visiting a page. In the example, we only used the URL and the length of the text. The following is a sample of other data that you may be interested in obtaining:
+
+    *URL path
+    *Parent URL
+    *Anchor
+    *HTML text
+    *Outgoing links
+    *Document ID
 }*/
