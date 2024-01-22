@@ -15,5 +15,7 @@ public class PageFetcher {
      controller.addSeed(
         "https://en.wikipedia.org/wiki/
      Bishop_Rock, _Isles_of_Scilly");
+
+     controller.start(SampleCrawler.class, numberOfCrawlers);
     **/
 }
