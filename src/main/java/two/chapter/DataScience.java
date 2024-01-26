@@ -110,4 +110,57 @@ try {
         Contact Wikipedia Developers Cookie
         statement Mobile view
 
+        -----------------------------------
+        The parameter type of the select method is a
+        string. By using a string, the type of information
+        selected is easily changed. Details on how to
+        formulate this string are found at the jsoup
+        Javadocs for the Selector class at https://
+        jsoup.org/apidocs/:
+
+        We can use the select method to retrieve the
+        images in a document, as shown here:
+
+        Elements images =
+        document.select("img[src$=.png]");
+            for (Element image : images) {
+                out.println("\nImage: " +
+            image);
+        }
+
+        The output for the Wikipedia data science page
+        is shown here. It has been shortened to conserve
+        space:
+
+        Image: <img alt="Data Visualization"
+        src="//upload.wikimedia.org/...>
+        Image: <img alt="" src="//
+        upload.wikimedia.org/wikipedia/
+        commons/thumb/b/ba/...>
+
+        Links can be easily retrieved as shown next:
+
+        Elements links =
+        document.select("a[href]");
+            for (Element link : links) {
+                out.println("Link: " +
+        link.attr("href")
+            + " Text: " +
+        link.text());
+
+        The output for the Example.html page is shown
+        here:
+
+        Link: https://en.wikipedia.org/wiki/
+        Data_science Text: Data Science
+        Link: https://en.wikipedia.org/wiki/
+        Jsoup Text: Jsoup
+
+        jsoup possesses many additional capabilities.
+        However, this example demonstrates the
+        web scraping process. There are also other
+        Java HTML parsers available. A comparison
+        of Java HTML parser, among others, can be
+        found at https://en.wikipedia.org/wiki/
+        Comparison_of_HTML_parsers.
 */
