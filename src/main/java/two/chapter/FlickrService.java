@@ -41,7 +41,7 @@ public class FlickrService {
 
         searchParameters.setMedia("photos");
 
-        ThePhotosInterface class possesses a search
+        The PhotosInterface class possesses a search
         method that uses the SearchParameters
         instance to retrieve a list of photos. The
         getPhotosInterface method returns an
@@ -53,7 +53,8 @@ public class FlickrService {
         PhotoList class instance is returned:
 
         PhotosInterface pi = new
-        PhotosInterface(apikey, secret, new REST());
+        PhotosInterface(apikey, secret,
+                new REST());
             PhotoList<Photo> list =
             pi.search(searchParameters, 10, 0);
 
@@ -64,16 +65,18 @@ public class FlickrService {
         flag, and photo URL are displayed:
 
         out.println("Image List");
-        for (int i = 0; i < list.size(); i++) {
+        for (int i = 0; i < list.size();
+        i++) {
             Photo photo = list.get(i);
             out.println("Image: " + i +
                 "\nTitle: " +
             photo.getTitle() +
-                "\Media: " +
+                "\nMedia: " +
             photo.getOriginalFormat() +
                 "\nPublic: " +
             photo.isPublicFlag() +
-                "\nUrl: " + photoGetURL() +
+                "\nUrl: " + photo.getUrl()
+            +
                 "\n");
         }
         out.println();
