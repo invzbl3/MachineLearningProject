@@ -21,10 +21,11 @@ public class TokenizerFactory {
         never mind how long precisely -
         having little or no money in my
         purse, and nothing particular to
-        interest me on shire, I thought I
+        interest me on shore, I thought I
         would sail about a little and see the
         watery part of the world.
         call me ishmael . years ago - never
+        mind how long precisely - having
         little money my purse, nothing
         particular interest me shore, i
         thought i sail little see watery part
