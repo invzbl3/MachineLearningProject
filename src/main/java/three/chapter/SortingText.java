@@ -3,7 +3,6 @@ package three.chapter;
 import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
-
 import static java.lang.System.out;
 public class SortingText {
 
@@ -43,11 +42,11 @@ public class SortingText {
             than compare:
          */
 
-        Comparator<String> compareWords =
+        /*Comparator<String> compareWords =
                 (String first, String second) ->
                         first.compareTo(second);
         Collections.sort(wordsList, compareWords);
-        out.println("Sorted words using Lambda: " + wordsList.toString());
+        out.println("Sorted words using Lambda: " + wordsList.toString());*/
 
         /*
             When this code is executed, we should see the
@@ -63,7 +62,7 @@ public class SortingText {
             ArrayList and are initialized as follows:
          */
 
-        List<String> wordsList
+        /*List<String> wordsList
                 = Stream.of("cat", "dog",
                 "house", "boat", "road", "zoo")
                 .collect(Collectors.toList());
@@ -71,7 +70,7 @@ public class SortingText {
         List<Integer> numsList =
                 Stream.of(12, 46, 52, 34, 87, 123,
                         14, 44)
-                        .collect(Collectors.toList());
+                        .collect(Collectors.toList());*/
 
         /*
             First, we will print our original version of each list
