@@ -1,12 +1,14 @@
 package three.chapter;
 
-import java.io.BufferedReader;
-import java.io.FileReader;
-import java.io.IOException;
+// import java.io.BufferedReader;
+// import java.io.FileReader;
+// import java.io.IOException;
 
 public class MobyDick {
 
-    /*String path = "C:// MobyDick.txt";
+    /*  public static void main(String[] args) {
+
+    String path = "C:// MobyDick.txt";
       try {
         String textLine = "";
         toFind =
@@ -24,5 +26,6 @@ public class MobyDick {
         textToClean.close();
     } catch(IOException ex) {
         // Handle exceptions
-    }*/
+    }
+  }*/
 }
