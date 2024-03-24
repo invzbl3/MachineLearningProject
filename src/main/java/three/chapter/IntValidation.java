@@ -1,13 +1,13 @@
 package three.chapter;
 
-import static java.lang.System.out;
+//import static java.lang.System.out;
 
 public class IntValidation {
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         validateInt("1234");
         validateInt("Ishmael");
-    }
+    }*/
 
     /*public static void validateInt(String toValidate) {
         try {
