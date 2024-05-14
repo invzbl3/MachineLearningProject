@@ -1,6 +1,6 @@
 package four.chapter;
 
-public class SimpleBarChartByYear {
+/*public class SimpleBarChartByYear {
 
     public void simpleBarChartByYear(Stage stage) {
 
@@ -13,7 +13,7 @@ public class SimpleBarChartByYear {
         yAxis.setLabel("Population");
         // ...
     }
-}
+}*/
 
 /**
  * The following string variables are declared for the
